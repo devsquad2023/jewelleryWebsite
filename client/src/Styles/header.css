@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300;400&display=swap');
+
+
+.container-fluid{
+    padding: 0 0 0 4%;
+}
+.nav-link{
+    font-family: poppins;
+    color: black;
+    font-weight: 900;
+}
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    position: relative;
+    top: 93%;
+    left: 10px;
+}
+.front{
+    background-image: url(../assets/front.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+}
+.heading{
+    font-family: poppins;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    width: 500px;
+}
+.content{
+    position: relative;
+    top: 18%;
+}
+.f-btn{
+    width: 150px;
+    font-family: poppins;
+}
+.card{
+    background-image: url(../assets/necklace.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    left: 10px;
+}
+.card2{
+    background-image: url(../assets/bracelets.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 47%;
+    position: relative;
+    left: 23px;
+   height: 50vh;
+  
+}
+.card3{
+    background-image: url(../assets/ring.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 48vh;
+    position: relative;
+    right: 20px;
+
+}
+.card4{
+    background-image: url(../assets/earing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 105%;
+    height: 48vh;
+    position: relative;
+    right: 16px;
+}
+.wrapper{
+    padding: 1%;
+}
