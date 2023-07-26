@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Cart from "./components/Cart";
 import Header from "./components/Header";
+import Category from "./components/Category";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/register" element={<Register/>} />
       <Route path="/cart" element={<Cart/>} />
       <Route path="/wishlist" element={<Wishlist/>} />
+      <Route path="/category" element={<Category/>} />
     </Routes>  
     </BrowserRouter>
     
