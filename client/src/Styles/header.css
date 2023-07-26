@@ -5,7 +5,6 @@
     padding: 0 0 0 4%;
 }
 .nav-link{
-    font-family: poppins;
     color: black;
     font-weight: 900;
 }
@@ -27,7 +26,6 @@
 
 }
 .heading{
-    font-family: poppins;
     color: white;
     font-weight: 400;
     text-transform: capitalize;
@@ -40,7 +38,6 @@
 }
 .f-btn{
     width: 150px;
-    font-family: poppins;
 }
 .card1{
     background-image: url(../assets/necklace.jpg);

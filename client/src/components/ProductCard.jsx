@@ -5,7 +5,7 @@ import diamondRing from '../assets/closeup-diamond-ring.jpg'
 
 const productCard = () => {
   return (
-    <div className='col-xl-2 col-lg-3 col-md-4 col-6 mb-4'>
+    <div className='col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4'>
 		<div className="productCard card" >
 			<img src={diamondRing} className="card-img-top productCardImg" alt="..." />
 			<div className="card-body">
@@ -18,4 +18,4 @@ const productCard = () => {
   )
 }
 
-export default productCard
+export default productCard;
