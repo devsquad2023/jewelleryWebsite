@@ -13,7 +13,7 @@ const Category = () => {
 
 			{/* Sub-Category Carousel */}
 
-			<div id='subCategoryCarousel' className='carousel slide'>
+			<div id='subCategoryCarousel' className='carousel slide' data-interval='false'>
 				<div className='carousel-inner'>
 					<div className='carousel-item active'>
 						<div className='row'>
