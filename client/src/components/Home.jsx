@@ -22,7 +22,7 @@ const Home = () => {
 
 <div className='wrapper'>
     <div className='row'>
-        <div className='card col-md-6'>
+        <div className='card1 col-md-6'>
             <p>sania</p>
         </div>
         <div className='card2 col-md-6'>
