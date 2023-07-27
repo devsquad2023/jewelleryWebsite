@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./components/Home"
 import About from "./components/About"
 import Wishlist from "./components/Wishlist";
@@ -9,11 +9,11 @@ import Cart from "./components/Cart";
 import Header from "./components/Header";
 import Category from "./components/Category";
 import Product from "./components/Product";
+import Admin from "./components/Admin";
 
 function App() {
   return (
     <>
-
     <BrowserRouter>
     <Header/>
     <Routes>
@@ -26,9 +26,9 @@ function App() {
       <Route path="/wishlist" element={<Wishlist/>} />
       <Route path="/category" element={<Category/>} />
       <Route path="/product" element={<Product/>} />
+      <Route path="/admin" element={<Admin />} />
     </Routes>  
     </BrowserRouter>
-    
     </>
   );
 }
